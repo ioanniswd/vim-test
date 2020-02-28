@@ -7,6 +7,10 @@ function! test#strategy#dispatch(cmd)
 endfunction
 
 " don't execute any shell commands
+function! test#strategy#spawn(cmd)
+endfunction
+
+" don't execute any shell commands
 function! test#strategy#neovim(cmd)
 endfunction
 
